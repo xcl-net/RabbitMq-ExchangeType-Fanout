@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "消息生产者publish", "消息生产者publish\消息生产者publish.csproj", "{1098DDF0-E850-4D80-8174-3B7E589B463A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "队列queue1绑定到交换机并创建消费者consumer1", "队列queue1绑定到交换机并创建消费者consumer1\队列queue1绑定到交换机并创建消费者consumer1.csproj", "{2E736F28-4DA2-4334-8E15-5D7294A3117D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "队列queue2绑定到交换机并创建消费者consumer2", "队列queue2绑定到交换机并创建消费者consumer2\队列queue2绑定到交换机并创建消费者consumer2.csproj", "{0EA998F7-6CB8-4A9A-9713-EF0F6297FFF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1098DDF0-E850-4D80-8174-3B7E589B463A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1098DDF0-E850-4D80-8174-3B7E589B463A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1098DDF0-E850-4D80-8174-3B7E589B463A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1098DDF0-E850-4D80-8174-3B7E589B463A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E736F28-4DA2-4334-8E15-5D7294A3117D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E736F28-4DA2-4334-8E15-5D7294A3117D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E736F28-4DA2-4334-8E15-5D7294A3117D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E736F28-4DA2-4334-8E15-5D7294A3117D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA998F7-6CB8-4A9A-9713-EF0F6297FFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA998F7-6CB8-4A9A-9713-EF0F6297FFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA998F7-6CB8-4A9A-9713-EF0F6297FFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA998F7-6CB8-4A9A-9713-EF0F6297FFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
